@@ -1,8 +1,9 @@
+// src/App.js
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import ListingList from "./ListingList";
-import ListingDetail from "./ListingDetail";
 import CreateListing from "./CreateListing";
+import ListingDetail from "./ListingDetail";
 
 function App() {
   return (
@@ -15,4 +16,3 @@ function App() {
 }
 
 export default App;
-
